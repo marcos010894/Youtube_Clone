@@ -1,21 +1,10 @@
 import React from "react";
-import { Button, ThemeProvider } from "@material-ui/core";
-import { createMuiTheme } from '@material-ui/core/styles';
+import { ThemeProvider } from "@material-ui/core";
 import  Home  from "../../components/home";
+import { theme } from "../../components/theme";
 
 
 function PageInitial() {
-    const theme = createMuiTheme({
-        spacing: 4,
-        palette:{
-            primary:{
-                main: '#f44336',
-            },
-            secondary:{
-                main: '#3f51b5',
-            },
-        },
-    });
 
     return(
     <ThemeProvider theme={theme}>

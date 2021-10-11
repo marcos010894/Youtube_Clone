@@ -11,6 +11,7 @@ export const GlobalStyle = createGlobalStyle `
         opacity: 0.6;
         cursor: not-allowed;
     }
-
-
+    body{
+        background-color:#f9f9f9;
+    }
 `
