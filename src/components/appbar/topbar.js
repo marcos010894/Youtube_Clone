@@ -8,16 +8,14 @@ import MoreVertIcon from '@material-ui/icons/MoreVert';
 import AppsIcon from '@material-ui/icons/Apps';
 import SearchIcon from '@material-ui/icons/Search';
 import { useState } from 'react';
-import { InputDrawer, DivInput, BtnPesquisa, DivAcountSmartPhone, DivAcountDesktop} from '../globalstyle/style';
+import { InputDrawer, DivInput, DivAcountSmartPhone, DivAcountDesktop} from '../globalstyle/style';
 
 
 
 export default function MenuAppBar() {
   const [valueDrawer, setvalueDrawer] = useState("true")
-
-
   function hendleParam(){
-    if(valueDrawer == "true"){
+    if(valueDrawer === "true"){
       setvalueDrawer("false");
     }else{
       setvalueDrawer("true");
@@ -40,14 +38,7 @@ export default function MenuAppBar() {
             <img src="/images/preto.png" className={classApp.logo} />
             <DivInput>
                <InputDrawer />
-               <IconButton
-                  edge="start"
-                  className={classApp.menuicon}
-                  aria-label="menu"
-                  onClick={hendleParam}
-                >
-                <SearchIcon  />
-                </IconButton>
+               <Button variant="outlined" ><SearchIcon /></Button>
             </DivInput>
           
           <div className={classApp.grow} />

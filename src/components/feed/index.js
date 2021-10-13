@@ -9,7 +9,7 @@ export default function Feed(){
     {
       id: 1,
       title:
-        'CRINADO A INTERFAÇE do yoytube | REACT, MATERIAL UI, CSS, StyledComponents',
+        'CRINADO A INTERFAÇE do yoytube ',
       channel: 'MARCOS MACHADO',
       views: '11 mi de visualizações',
       date: 'há 1 MES',
@@ -19,7 +19,7 @@ export default function Feed(){
     {
       id: 2,
       title:
-        'CRINADO A INTERFAÇE do yoytube | REACT, MATERIAL UI, CSS, StyledComponents',
+        'CRINADO A INTERFAÇE do yoytube ',
       channel: 'MARCOS MACHADO',
       views: '11 mi de visualizações',
       date: 'há 1 MES',
@@ -29,7 +29,7 @@ export default function Feed(){
     {
       id: 3,
       title:
-        'CRINADO A INTERFAÇE do yoytube | REACT, MATERIAL UI, CSS, StyledComponents',
+        'CRINADO A INTERFAÇE do yoytube ',
       channel: 'MARCOS MACHADO',
       views: '11 mi de visualizações',
       date: 'há 1 MES',
@@ -39,7 +39,7 @@ export default function Feed(){
     {
       id: 4,
       title:
-        'CRINADO A INTERFAÇE do yoytube | REACT, MATERIAL UI, CSS, StyledComponents',
+        'CRINADO A INTERFAÇE do yoytube ',
       channel: 'MARCOS MACHADO',
       views: '11 mi de visualizações',
       date: 'há 1 MES',
@@ -49,7 +49,7 @@ export default function Feed(){
     {
       id: 5,
       title:
-        'CRINADO A INTERFAÇE do yoytube | REACT, MATERIAL UI, CSS, StyledComponents',
+        'CRINADO A INTERFAÇE do yoytube ',
       channel: 'MARCOS MACHADO',
       views: '11 mi de visualizações',
       date: 'há 1 MES',
@@ -59,7 +59,7 @@ export default function Feed(){
     {
       id: 6,
       title:
-        'CRINADO A INTERFAÇE do yoytube | REACT, MATERIAL UI, CSS, StyledComponents',
+        'CRINADO A INTERFAÇE do yoytube ',
       channel: 'MARCOS MACHADO',
       views: '11 mi de visualizações',
       date: 'há 1 MES',
@@ -69,7 +69,7 @@ export default function Feed(){
     {
       id: 7,
       title:
-        'CRINADO A INTERFAÇE do yoytube | REACT, MATERIAL UI, CSS, StyledComponents',
+        'CRINADO A INTERFAÇE do yoytube ',
       channel: 'MARCOS MACHADO',
       views: '11 mi de visualizações',
       date: 'há 1 MES',
@@ -79,7 +79,7 @@ export default function Feed(){
     {
       id: 8,
       title:
-        'CRINADO A INTERFAÇE do yoytube | REACT, MATERIAL UI, CSS, StyledComponents',
+        'CRINADO A INTERFAÇE do yoytube ',
       channel: 'MARCOS MACHADO',
       views: '11 mi de visualizações',
       date: 'há 1 MES',
@@ -89,7 +89,7 @@ export default function Feed(){
     {
       id: 9,
       title:
-        'CRINADO A INTERFAÇE do yoytube | REACT, MATERIAL UI, CSS, StyledComponents',
+        'CRINADO A INTERFAÇE do yoytube ',
       channel: 'MARCOS MACHADO',
       views: '11 mi de visualizações',
       date: 'há 1 MES',
@@ -99,7 +99,7 @@ export default function Feed(){
     {
       id: 10,
       title:
-        'CRINADO A INTERFAÇE do yoytube | REACT, MATERIAL UI, CSS, StyledComponents',
+        'CRINADO A INTERFAÇE do yoytube ',
       channel: 'MARCOS MACHADO',
       views: '11 mi de visualizações',
       date: 'há 1 MES',
@@ -109,7 +109,7 @@ export default function Feed(){
     {
       id: 11,
       title:
-        'CRINADO A INTERFAÇE do yoytube | REACT, MATERIAL UI, CSS, StyledComponents',
+        'CRINADO A INTERFAÇE do yoytube ',
       channel: 'MARCOS MACHADO',
       views: '11 mi de visualizações',
       date: 'há 1 MES',
@@ -119,7 +119,7 @@ export default function Feed(){
     {
       id: 12,
       title:
-        'CRINADO A INTERFAÇE do yoytube | REACT, MATERIAL UI, CSS, StyledComponents',
+        'CRINADO A INTERFAÇE do yoytube ',
       channel: 'MARCOS MACHADO',
       views: '11 mi de visualizações',
       date: 'há 1 MES',

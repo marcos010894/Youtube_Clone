@@ -13,8 +13,9 @@ export const GlobalStyle = createGlobalStyle `
 
 export const InputDrawer = styled.input`
     width:500px;
-    height: 25px;
-    border: 1px solid black;
+    height: 28px;
+    border-radius: 2px;
+    border: 0.5px solid rgb(118, 118, 118);
 `
 
 export const DivInput = styled.div` 
