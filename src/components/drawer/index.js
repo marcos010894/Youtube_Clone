@@ -1,5 +1,4 @@
-import {Drawer, Button, Box,  Toolbar, Typography, List, ListItem, ListItemIcon, Divider, ListItemText} from '@material-ui/core';
-import { makeStyles } from "@material-ui/core";
+import {Drawer, Button, Toolbar, List, ListItem, ListItemIcon, Divider, ListItemText} from '@material-ui/core';
 import { useStyle } from "../useMakeStyle";
 import HomeIcon from '@material-ui/icons/Home';
 import Subscriptions from '@material-ui/icons/Subscriptions';
@@ -7,11 +6,7 @@ import Whatshot from '@material-ui/icons/Whatshot';
 import AccountCircle from '@material-ui/icons/AccountCircle';
 import AddCircle from '@material-ui/icons/AddCircle';
 
-
-
-
-
-export default function DrawerYt() {
+export default function DrawerYt() {    
     const classDrawer = useStyle();
 return(
     <Drawer
@@ -22,7 +17,7 @@ return(
     }}
     >
     <Toolbar />
-    <List>        
+    <List style={{padding:"1px"}}>        
         <ListItem button key={"Inicio"}
         classes={{
             root: classDrawer.listItem
@@ -38,7 +33,7 @@ return(
         </ListItem>
     </List>
 
-    <List>        
+    <List style={{padding:"1px"}}>        
         <ListItem button key={"Em alta"}
         classes={{
             root: classDrawer.listItem
@@ -54,7 +49,7 @@ return(
         </ListItem>
     </List>
 
-    <List>        
+    <List style={{padding:"1px"}}>        
         <ListItem button key={"incriçoes"}
         classes={{
             root: classDrawer.listItem
@@ -71,7 +66,7 @@ return(
     </List>
 
     <Divider />
-    <List>        
+    <List style={{padding:"1px"}}>        
         <ListItem button key={"Inicio"}
         classes={{
             root: classDrawer.listItem
@@ -86,7 +81,7 @@ return(
             primary={"inicio"} />
         </ListItem>
     </List>
-    <List>        
+    <List style={{padding:"1px"}}>        
         <ListItem button key={"Inicio"}
         classes={{
             root: classDrawer.listItem
@@ -102,7 +97,7 @@ return(
         </ListItem>
     </List>
     <Divider />
-    <List>        
+    <List style={{padding:"1px"}}>        
         <ListItem button key={"Inicio"}
         classes={{
             root: classDrawer.listItem
@@ -120,8 +115,8 @@ return(
         Fazer login
         </Button>
     </div>
-    <Divider/>
-    <List>        
+    <List style={{padding:"1px"}}>        
+        <Divider/>    
         <ListItem button key={"Inicio"}
         classes={{
             root: classDrawer.listItem
@@ -129,7 +124,7 @@ return(
          <p className={classDrawer.textTitle}> O Melhor do youtube. </p>
         </ListItem>
     </List>
-    <List>        
+    <List style={{padding:"1px"}}>        
         <ListItem button key={"Musica"}
         classes={{
             root: classDrawer.listItem
@@ -145,7 +140,7 @@ return(
         </ListItem>
     </List>
 
-    <List>        
+    <List style={{padding:"1px"}}>        
         <ListItem button key={"Esportes"}
         classes={{
             root: classDrawer.listItem
@@ -161,7 +156,7 @@ return(
         </ListItem>
     </List>
 
-    <List>        
+    <List style={{padding:"1px"}}>        
         <ListItem button key={"Jogos"}
         classes={{
             root: classDrawer.listItem
@@ -176,7 +171,7 @@ return(
             primary={"Jogos"} />
         </ListItem>
     </List>
-    <List>        
+    <List style={{padding:"1px"}}>        
         <ListItem button key={"Entreterimento"}
         classes={{
             root: classDrawer.listItem
@@ -191,7 +186,7 @@ return(
             primary={"Entreterimento"} />
         </ListItem>
     </List>
-    <List>        
+    <List style={{padding:"1px"}}>        
         <ListItem button key={"Comédia"}
         classes={{
             root: classDrawer.listItem
@@ -206,7 +201,7 @@ return(
             primary={"Comédia"} />
         </ListItem>
     </List>
-    <List>        
+    <List style={{padding:"1px"}}>        
         <ListItem button key={"Familia"}
         classes={{
             root: classDrawer.listItem
@@ -221,7 +216,67 @@ return(
             primary={"Familia"} />
         </ListItem>
     </List>
-    
+    <List style={{padding:"1px"}}>        
+        <ListItem button key={"Tecnologia"}
+        classes={{
+            root: classDrawer.listItem
+        }}>
+            <ListItemIcon>
+                <AddCircle />
+            </ListItemIcon>
+            <ListItemText 
+            classes={{
+                primary: classDrawer.listItemText
+            }}
+            primary={"Tecnologia"} />
+        </ListItem>
+        <List style={{padding:"1px"}}>        
+        <ListItem button key={"Inteligencia IA"}
+        classes={{
+            root: classDrawer.listItem
+        }}>
+            <ListItemIcon>
+                <AddCircle />
+            </ListItemIcon>
+            <ListItemText 
+            classes={{
+                primary: classDrawer.listItemText
+            }}
+            primary={"Inteligencia IA"} />
+        </ListItem>
+        <List style={{padding:"1px"}}>        
+        <ListItem button key={"Futebol"}
+        classes={{
+            root: classDrawer.listItem
+        }}>
+            <ListItemIcon>
+                <AddCircle />
+            </ListItemIcon>
+            <ListItemText 
+            classes={{
+                primary: classDrawer.listItemText
+            }}
+            primary={"Futebol"} />
+        </ListItem>
+        <List style={{padding:"1px"}}>        
+        <ListItem button key={"VoleiBol"}
+        classes={{
+            root: classDrawer.listItem
+        }}>
+            <ListItemIcon>
+                <AddCircle />
+            </ListItemIcon>
+            <ListItemText 
+            classes={{
+                primary: classDrawer.listItemText
+            }}
+            primary={"VoleiBol"} />
+        </ListItem>
+        
+    </List>
+    </List>
+    </List>
+    </List>
     
     </Drawer>
     )
